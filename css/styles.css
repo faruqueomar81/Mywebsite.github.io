@@ -34,6 +34,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #ffc800;
+  --bs-aqua: #3AAFA9;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -3013,7 +3014,7 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #ffc800;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -3028,6 +3029,22 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #ffc800;
   border-color: #ffc800;
+}
+.btn-linkedin {
+  color: #fff;
+  background-color: #0E76A8;
+  border-color: #0E76A8;
+}
+
+.btn-github {
+  color: #fff;
+  background-color: #171515;
+  border-color: #171515;
+}
+.btn-youtube {
+  color: #fff;
+  background-color: #FF0000;
+  border-color: #FF0000;
 }
 .btn-primary:hover {
   color: #fff;
@@ -6431,6 +6448,7 @@ textarea.form-control-lg {
 .link-primary {
   color: #ffc800;
 }
+
 .link-primary:hover, .link-primary:focus {
   color: #cca000;
 }
@@ -11346,7 +11364,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 6rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11371,7 +11389,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 6rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11384,7 +11402,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 6rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
