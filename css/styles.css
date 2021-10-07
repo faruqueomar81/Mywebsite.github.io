@@ -11415,7 +11415,7 @@ p {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: center;
+  text-align: left;
   color: #fff;
   background-image: url("../assets/img/Background.svg");
   background-repeat: no-repeat;
